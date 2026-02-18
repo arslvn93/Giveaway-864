@@ -8,7 +8,7 @@ const config = {
     "heroHeadline": "Win <span class='highlight'>Free Family Snow Tubing</span> at Lakeridge Ski + <span class='highlight'>$100 Food Credit</span>!",
     "heroSubheadline": "Up to 5 tubing tickets for March Break fun. $300 value. No ski skills needed. Enter now. Ends March 13.",
     "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/p0vzg4pepxrmy0cwb1kr8nrs7r.jpg",
-    "promotionDates": "Enter Feb 24–Mar 13, 2026. Winner picked March 13, 2026.",
+    "promotionDates": "Enter Feb 24 - Mar 13, 2026. Winner picked March 13, 2026.",
     "endDate": "2026-03-14T03:59:00.000Z",
     "heroCtaText": "Enter to Win Now!",
     "entryFormCtaText": "Enter My Family Now!",
@@ -82,7 +82,7 @@ const config = {
     "name": "Lakeridge Ski March Break Snow Tubing Family Pack",
     "value": "$300 Value",
     "description": "Picture this: your family flying down snowy lanes, big smiles, loud laughs, and warm drinks after. No lessons. No gear. Just pure fun. You also get $100 for food and drinks, so you can warm up with cocoa and snacks. The date and time will be set with the winner. It’s easy, simple, and perfect for March Break.",
-    "limitedTimeOfferText": "March Break Giveaway – Ends Soon!",
+    "limitedTimeOfferText": "March Break Giveaway - Ends Soon!",
     "ctaButtonText": "I Want This Snow Day!"
   },
   "howToEnter": {
@@ -94,7 +94,7 @@ const config = {
       },
       {
         "icon": "fas fa-check-circle",
-        "title": "Answer 3–4 Quick Questions",
+        "title": "Answer 3 - 4 Quick Questions",
         "description": "Tell us a bit about your home needs in Uxbridge."
       },
       {
@@ -186,7 +186,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1771448230962_0",
+      "id": "q_auto_1771448284241_0",
       "questionText": "What's your current situation?",
       "options": [
         {
@@ -208,7 +208,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1771448230962_1",
+      "id": "q_auto_1771448284241_1",
       "questionText": "What are you looking to do?",
       "options": [
         {
@@ -234,7 +234,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1771448230962_2",
+      "id": "q_auto_1771448284241_2",
       "questionText": "When are you planning to move?",
       "options": [
         {
