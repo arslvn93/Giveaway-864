@@ -28,16 +28,11 @@ const config = {
     "primaryColorOverride": "",
     "secondaryColorOverride": "#FFEE58",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
+    "turnstileSiteKey": "",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-  "thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "You're In the Running!",
-    "mainMessage": "Your entry for the <strong>March Break Snow Tubing Family Pack at Lakeridge Ski</strong> is in. We will draw the winner on March 13, 2026 and email them. Good luck!",
-    "socialPromptText": "Watch your inbox on March 13. Follow our Instagram and Facebook for the winner post and local family tips."
+    "followUpBossEmail": "",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -93,9 +88,9 @@ const config = {
   "howToEnter": {
     "steps": [
       {
-        "icon": "fas fa-edit",
-        "title": "Fill Out the Form",
-        "description": "Add your name and email. It takes 30 seconds."
+        "icon": "fab fa-instagram",
+        "title": "Follow us on Instagram",
+        "description": "Follow us @_noblerealestate"
       },
       {
         "icon": "fas fa-check-circle",
@@ -136,8 +131,6 @@ const config = {
     ]
   },
   "rules": {
-    "finePrintText": "Please read the fine print before entering.",
-    "showTipsSection": true,
     "faq": [
       {
         "q": "Who can enter?",
@@ -171,6 +164,8 @@ const config = {
       "Like the Facebook page: https://www.facebook.com/colinnoblerealestate",
       "Share this with another Uxbridge family"
     ],
+    "finePrintText": "Please read the fine print before entering.",
+    "showTipsSection": true,
     "fairSelectionInfo": {
       "title": "Fair and Random Winner Draw",
       "text": "We use a random draw tool. Every valid entry has the same chance to win. One entry per person. No tricks."
@@ -191,75 +186,95 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1757969005264_0",
-      "questionText": "What do you like the most about your current home?",
+      "id": "q_auto_1771448230962_0",
+      "questionText": "What's your current situation?",
       "options": [
         {
-          "value": "The location",
-          "text": "The location"
+          "value": "I own my home",
+          "text": "I own my home"
         },
         {
-          "value": "The layout",
-          "text": "The layout"
+          "value": "I rent",
+          "text": "I rent"
         },
         {
-          "value": "The finishes (paint, lighting, etc.)",
-          "text": "The finishes (paint, lighting, etc.)"
+          "value": "Live with family/friends",
+          "text": "Live with family/friends"
         },
         {
-          "value": "The outdoor space",
-          "text": "The outdoor space"
+          "value": "Between homes",
+          "text": "Between homes"
         }
       ]
     },
     {
-      "id": "q_auto_1757969005264_1",
-      "questionText": "Is a move on your radar in the near future?",
+      "id": "q_auto_1771448230962_1",
+      "questionText": "What are you looking to do?",
       "options": [
         {
-          "value": "Yes, sometime in 2025",
-          "text": "Yes, sometime in 2025"
+          "value": "Buy a home",
+          "text": "Buy a home"
         },
         {
-          "value": "Yes, in the next 1 - 2 years",
-          "text": "Yes, in the next 1 - 2 years"
+          "value": "Sell and buy",
+          "text": "Sell and buy"
         },
         {
-          "value": "Not at the moment",
-          "text": "Not at the moment"
+          "value": "Rent a place",
+          "text": "Rent a place"
         },
         {
-          "value": "I’m not sure yet",
-          "text": "I’m not sure yet"
+          "value": "Invest in property",
+          "text": "Invest in property"
+        },
+        {
+          "value": "Staying put",
+          "text": "Staying put"
         }
       ]
     },
     {
-      "id": "q_auto_1757969005264_2",
-      "questionText": "What’s your current housing situation?",
+      "id": "q_auto_1771448230962_2",
+      "questionText": "When are you planning to move?",
       "options": [
         {
-          "value": "I rent and am interested in buying",
-          "text": "I rent and am interested in buying"
+          "value": "ASAP",
+          "text": "ASAP"
         },
         {
-          "value": "I own and might sell within 2 years",
-          "text": "I own and might sell within 2 years"
+          "value": "3-6 months",
+          "text": "3-6 months"
         },
         {
-          "value": "I own and am happy where I am",
-          "text": "I own and am happy where I am"
+          "value": "6-12 months",
+          "text": "6-12 months"
         },
         {
-          "value": "I’m actively looking to buy or sell now",
-          "text": "I’m actively looking to buy or sell now"
+          "value": "12+ months",
+          "text": "12+ months"
+        },
+        {
+          "value": "No plans",
+          "text": "No plans"
         }
       ]
     }
   ],
+  "thankYouPage": {
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "Almost there!",
+    "mainMessage": "Your information for the March Break Giveaway has been received. Complete your entry below to be eligible for the Mar 13 draw.\n\n",
+    "socialPromptText": "Follow us @_noblerealestate on Instagram to complete your entry - only followers are eligible\n\n"
+  },
   "footerContact": {
     "social": {
-      "facebook": "https://www.facebook.com/colinnoblerealestate",
+      "facebook": "",
       "instagram": "https://www.instagram.com/_noblerealestate"
     },
     "agentContact": {
