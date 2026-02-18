@@ -7,7 +7,7 @@ const config = {
   "giveaway": {
     "heroHeadline": "Win <span class='highlight'>Free Family Snow Tubing</span> at Lakeridge Ski + <span class='highlight'>$100 Food Credit</span>!",
     "heroSubheadline": "Up to 5 tubing tickets for March Break fun. $300 value. No ski skills needed. Enter now. Ends March 13.",
-    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/p0vzg4pepxrmy0cwb1kr8nrs7r.jpg",
+    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-lakeridge_winter_2_7.webp",
     "promotionDates": "Enter Feb 24 - Mar 13, 2026. Winner picked March 13, 2026.",
     "endDate": "2026-03-14T03:59:00.000Z",
     "heroCtaText": "Enter to Win Now!",
@@ -49,7 +49,7 @@ const config = {
         "alt": "Hot cocoa and snacks during a winter day out"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/x31rs7tvdhrmy0cwb1navq26wr.jpg",
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/upload-image_header-scaled.webp",
         "alt": "Parents and kids enjoying a snowy March Break"
       }
     ],
@@ -186,7 +186,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1771448284241_0",
+      "id": "q_auto_1771450010824_0",
       "questionText": "What's your current situation?",
       "options": [
         {
@@ -208,7 +208,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1771448284241_1",
+      "id": "q_auto_1771450010824_1",
       "questionText": "What are you looking to do?",
       "options": [
         {
@@ -234,7 +234,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1771448284241_2",
+      "id": "q_auto_1771450010824_2",
       "questionText": "When are you planning to move?",
       "options": [
         {
